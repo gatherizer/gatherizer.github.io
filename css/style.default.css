@@ -217,7 +217,9 @@
 
 @media (max-width:362px) {
   .main .mailing-list {
-    margin-top: 0px
+    margin-top: 0px;
+    position: absolute;
+    bottom: 10px;
   }
 }
 
