@@ -199,7 +199,7 @@
   }
 }
 
-@media (min-width:362px) {
+@media (max-width:362px) {
   .main .mailing-list input {
     width: 100%
   }
