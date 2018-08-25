@@ -215,6 +215,12 @@
   }
 }
 
+@media (max-width:362px) {
+  .main .mailing-list {
+    margin-top: 0px
+  }
+}
+
 @media (min-width:1600px) {
   .main .mailing-list {
     margin-top: 40px
