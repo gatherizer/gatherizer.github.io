@@ -101,6 +101,10 @@
   }
 }
 
+.main .content-container {
+  height: 100%;
+}
+
 .main .cursive {
   margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
@@ -219,7 +223,8 @@
   .main .mailing-list {
     margin-top: 0px;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
+    padding-bottom: 80px;
   }
 }
 
