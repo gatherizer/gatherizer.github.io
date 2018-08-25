@@ -198,12 +198,16 @@
     display: block;
   }
 }
-/*
-@media (min-width:768px) {
+
+@media (min-width:362px) {
   .main .mailing-list input {
-    width: 200px
+    width: 100%
   }
-}*/
+
+  .main .subscribe-btn {
+    width: 100%
+  }
+}
 
 @media (min-width:992px) {
   .main .mailing-list input {
