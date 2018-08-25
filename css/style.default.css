@@ -151,6 +151,12 @@
   }
 }
 
+@media (max-height: 480px) {
+  .main .sub {
+    visibility: hidden;
+  }
+}
+
 @media (max-width:470px) {
   .main .cursive {
     font-size: 50px;
