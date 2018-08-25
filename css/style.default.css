@@ -121,7 +121,7 @@
   margin-top: 100px;
 }
 
-@media (min-width:992px) {
+@media (max-width:992px) {
   .main .logo {
     margin-top: 75px;
   }
