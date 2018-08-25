@@ -138,10 +138,6 @@
 }
 
 @media (max-width:470px) {
-  .main .header {
-    margin-top: 0px;
-  }
-
   .main .cursive {
     font-size: 50px;
   }
@@ -247,6 +243,12 @@
 .main .header a:hover,
 .main .header a:focus {
   text-decoration: underline
+}
+
+@media (max-width:470px) {
+  .main .header {
+    margin-top: 0px;
+  }
 }
 
 @media (max-width:991px) {
