@@ -138,12 +138,28 @@
 }
 
 @media (max-width:470px) {
+  .main .header {
+    margin-top: 0px;
+  }
+
   .main .cursive {
     font-size: 50px;
   }
 
+  .main .sub {
+    font-size: 22px;
+  }
+  .main .mailing-list {
+    margin: 10px 0px;
+  }
+
+  .main .logo-container {
+    width: 60px;
+  }
+
   .main .logo {
-    margin-top: 25px;
+    margin-top: 5px;
+    width: 60px;
   }
 }
 
@@ -179,6 +195,11 @@
 @media only screen and (max-width:525px) {
   .main .mailing-list .mailing-list-heading {
     font-size: 22px;
+  }
+
+  .main .mail-bottom {
+    font-size: 22px;
+    display: block;
   }
 }
 /*
