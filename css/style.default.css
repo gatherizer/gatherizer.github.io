@@ -95,14 +95,14 @@
   background-color: #4a7f45
 }
 
-@media (max-width:991px) {
+@media (max-width:767px) {
   .main p.social {
     text-align: center
   }
 }
 
 .main .content-container {
-  height: 100%;
+  height: auto;
 }
 
 @media (max-width:362px) {
@@ -111,6 +111,7 @@
     top: 0px;
     left: 0px;
     padding-top: 96px;
+    height: 100%;
   }
 
 }
@@ -148,12 +149,6 @@
 
   .main .logo {
     margin-top: 25px;
-  }
-}
-
-@media (max-height: 480px) {
-  .main .sub {
-    visibility: hidden;
   }
 }
 
@@ -259,6 +254,10 @@
     padding-left: 15px;
     padding-bottom: 40px;
   }
+
+  .main .sub-thanks {
+    font-size: 25px;
+  }
 }
 
 @media (min-width:1600px) {
@@ -290,6 +289,10 @@
 
 }
 
+.main .fb-share-button {
+  margin-bottom: 10px;
+}
+
 .main .blog a {
   color: #fff
 }
@@ -305,13 +308,13 @@
   }
 }
 
-@media (max-width:991px) {
+@media (max-width:767px) {
   .main .header {
     text-align: center
   }
 }
 
-@media (min-width:992px) {
+@media (min-width:768px) {
   .main .header {
     position: fixed;
     top: 10px
