@@ -208,6 +208,19 @@
   width: auto;
   display: inline-block;
 }
+
+.main .sub-thanks {
+  font-size: 36px;
+}
+
+.main .sub-share {
+  font-size: 22px;
+}
+
+.main .sub-blog {
+  font-size: 22px;
+}
+
 @media only screen and (max-width:525px) {
   .main .mailing-list .mailing-list-heading {
     font-size: 22px;
@@ -261,6 +274,11 @@
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6)
 }
 
+.main .blog {
+  color: #eee;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
 .main .header {
   position: relative;
   top: 0px;
@@ -269,16 +287,15 @@
   z-index: 4;
   margin-top: 25px;
   font-size: 20px;
-  color: #eee;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6)
+
 }
 
-.main .header a {
+.main .blog a {
   color: #fff
 }
 
-.main .header a:hover,
-.main .header a:focus {
+.main .blog a:hover,
+.main .blog a:focus {
   text-decoration: underline
 }
 
